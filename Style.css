@@ -1,0 +1,62 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./temp_background.jpg);
+    background-size: 1185px;
+    display:flex;
+    place-items:center;
+    flex-direction: column;
+    overflow: hidden;
+}
+form{
+    border:5px double white;
+    background-color:transparent;
+    border-radius: 5%;
+    padding:50px;
+    color:aliceblue;
+    font-family: 'Times New Roman';
+    margin-top:190px;
+    margin-bottom:550px;
+    margin-left:500px;
+    
+}
+label{
+    font-size:35px;
+    margin:5px;
+    
+}
+input{
+    font-size:large;
+    margin:20px;
+    
+    
+}
+span{
+    text-align:center;
+    margin:5px;
+    margin-left:120px;
+    font-size:30px;
+}
+#sameLine{
+    display:flex;
+    
+}
+#type{
+    margin-top:30px ;
+}
+.btns{
+    background-color: rgb(72, 133, 191);
+    border-radius: 20px;
+    width: 100px;
+    height:50px;
+    color:aliceblue;
+}
+.btns:hover{
+    border:5px solid white;
+    cursor: pointer;
+    background-color: transparent;
+}
+#tempCalc{
+    margin-right: auto;
+}
